@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.haha {
+  display: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.yin {
+  position: absolute;
+  right: 0.8rem;
+  top: 0.3rem;
+  z-index: 1000;
+  animation: move3 2s linear infinite;
+}
+.yin .wai {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: rgba(255, 255, 255, 0);
+  border: 0.03rem solid white;
+  border-radius: 50%;
+}
+.yin .wai .yy {
+  color: aliceblue;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.firstP {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.firstP .beijng {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.firstP .beijng img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: move 4s;
+}
+.firstP .beijing2 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  background: black;
+  animation: move2 3s forwards;
+}
+.firstP .logo {
+  transform: all 2s;
+  width: 1.5rem;
+  height: 0.8rem;
+  background: url('../img/logo.png') no-repeat;
+  position: absolute;
+  top: 0.2rem;
+  left: 0.5rem;
+  animation: move1 2s ease-out;
+}
+.firstP .zhong {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  width: 80%;
+  height: 70%;
+  animation: move4 3s forwards;
+}
+.firstP .zhong .zhong1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.firstP .zhong .zhong1 .tp1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.firstP .zhong .zhong1 .one {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  font-size: 0.30rem;
+  animation: move6 1s 2s forwards;
+  opacity: 0;
+}
+.firstP .zhong .zhong1 .tp2 {
+  position: absolute;
+  top: 1.5rem;
+  left: 2.2rem;
+  animation: move5 1s 2s infinite;
+  opacity: 0;
+}
+.firstP .zhong .zhong1 .jj {
+  position: absolute;
+  top: 8rem;
+  left: 1rem;
+  font-size: .7rem;
+  animation: move7 1s 2s forwards;
+  opacity: 0;
+}
+.firstP .zhong .zhong1 .tp3 {
+  position: absolute;
+  top: 0;
+  left: .8rem;
+  opacity: 0;
+  animation: move8 1s 2s forwards;
+}
+.firstP .zhong .zhong1 .tp4 {
+  position: absolute;
+  bottom: 1rem;
+  left: 2.2rem;
+  animation: move9 1s 2.5s infinite;
+  opacity: 0;
+}
+.firstP .zhong .zhong1 .di {
+  position: absolute;
+  left: .5rem;
+  bottom: -5rem;
+  font-size: .25rem;
+  opacity: 0;
+  animation: move10 1s 3s forwards;
+}
+.firstP .dj {
+  position: absolute;
+  bottom: .5rem;
+  left: 2.2rem;
+  animation: move1 5s;
+}
+.toP {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: none;
+  position: relative;
+}
+.toP .beijing3 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation: move 3s forwards;
+}
+.toP .logo1 {
+  position: absolute;
+  width: 1.5rem;
+  height: 0.8rem;
+  top: 0.2rem;
+  left: .5rem;
+  animation: move1 2s ease-out;
+}
+.toP .toBeijing {
+  position: relative;
+  width: 90%;
+  height: 80%;
+  animation: move11 3s forwards;
+}
+.toP .toBeijing .toBeijing1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.toP .toBeijing .hen {
+  position: absolute;
+  top: .5rem;
+  width: 100%;
+}
+.toP .toBeijing .hen .toBeijing2 {
+  width: 100%;
+}
+.toP .toBeijing .ziP {
+  position: absolute;
+  top: 1.5rem;
+  left: .2rem;
+  width: 2rem;
+  height: 2rem;
+  animation: move12 3s forwards;
+}
+.toP .toBeijing .ziP img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.toP .toBeijing .zi {
+  font-size: .5rem;
+  position: absolute;
+  top: 3.5rem;
+  left: .8rem;
+  opacity: 0;
+  animation: move5 2s 2s forwards;
+}
+.toP .toBeijing .jianjie {
+  font-size: .3rem;
+  position: absolute;
+  top: 1.5rem;
+  left: 2.5rem;
+  opacity: 0;
+  animation: move1 1s 1s forwards;
+}
+.toP .toBeijing .toBottom {
+  width: 95%;
+  font-size: .3rem;
+  position: absolute;
+  bottom: .5rem;
+  left: .2rem;
+  animation: move1 2s 1s forwards;
+  opacity: 0;
+}
+.toP .toBeijing .dj1 {
+  position: absolute;
+  bottom: -0.5rem;
+  left: 2rem;
+}
+.three {
+  display: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.three img {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.three .lest {
+  position: absolute;
+  top: 5rem;
+  left: 1.5rem;
+}
+@keyframes move {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale();
+  }
+}
+@keyframes move1 {
+  from {
+    opacity: 0;
+    transform: translateX(5rem);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes move2 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+@keyframes move3 {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes move4 {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+@keyframes move5 {
+  from {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+}
+@keyframes move6 {
+  from {
+    transform-origin: right bottom;
+    transform: translateX(3rem) rotate3d(0, 0, 1, 45deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: translateX(0) translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+@keyframes move7 {
+  from {
+    top: 8rem;
+    opacity: 0;
+  }
+  to {
+    top: 3rem;
+    opacity: 1;
+  }
+}
+@keyframes move8 {
+  from {
+    opacity: 0;
+    top: 0;
+  }
+  to {
+    opacity: 1;
+    top: 4.1rem;
+  }
+}
+@keyframes move9 {
+  from {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(0.6);
+  }
+}
+@keyframes move10 {
+  from {
+    opacity: 0;
+    bottom: -5rem;
+  }
+  to {
+    opacity: 1;
+    bottom: .5rem;
+  }
+}
+@keyframes move11 {
+  from {
+    transform: translateY(0) translateX(5%);
+  }
+  to {
+    transform: translateY(-110%) translateX(5%);
+  }
+}
+@keyframes move12 {
+  from {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(-1000px, 0, 0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  60% {
+    opacity: 1;
+    transform: scale3d(0.475, 0.475, 0.475) translate3d(10px, 0, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
+  }
+}
